@@ -12,5 +12,10 @@ import localFont from "next/font/local";
 // });
 
 export default function Home() {
-  return <div className="">This is main page .</div>;
+  return (
+    <>
+      <div>Home</div>
+      <div>Hosting</div>
+    </>
+  );
 }
