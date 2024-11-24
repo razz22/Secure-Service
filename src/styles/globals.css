@@ -23,8 +23,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --primary-color: #ff6c3a;
+    --secondary-color: #232c3b;
+    --darkBlue-color: #232c3b;
   }
 }
 

@@ -10,9 +10,9 @@ const Footer = () => {
     <>
       {/* top footer  */}
       <div className="w-full bg-[#232C3B] h-auto py-8">
-        <div className="container-2xl">
+        <div className="mx-auto max-w-container xl:max-w-container-xl 2xl:max-w-container-2xl">
           {/* footer menus */}
-          <div className="flex justify-between w-full">
+          <div className="flex w-full gap-[100px] md:gap-0 md:justify-between">
             {/* Company  */}
             <div>
               <h3 className="text-sm font-bold text-white">Company</h3>
@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
 
             {/* Newsletter Subscribe  */}
-            <div className="w-[400px]">
+            <div className="w-[300px] lg:w-[400px] hidden md:block">
               <h3 className="text-sm font-bold text-white">
                 Newsletter Subscribe
               </h3>
@@ -129,26 +129,38 @@ const Footer = () => {
       {/* bottom footer  */}
 
       <div className="w-full bg-[#161D28] h-[100px]">
-        <div className="h-full container-2xl">
+        <div className="container h-full lg:container-lg xl:container-2xl">
           <div className="flex justify-between w-full h-full">
             {/* support  */}
-            <div className="flex items-center h-full gap-8">
-              <div className="flex items-center gap-2">
-                <img src="/images/home/clock.png" alt="" />
+            <div className="flex items-center h-full gap-8 text-[10px] lg:text-md">
+              <div className="items-center hidden gap-2 md:flex">
+                <img
+                  src="/images/home/clock.png"
+                  alt=""
+                  className="w-6 lg:w-12"
+                />
                 <span className="font-bold text-white">
                   24/7 Customer Support
                 </span>
               </div>
 
               <div className="flex items-center gap-2">
-                <img src="/images/home/send.png" alt="" />
+                <img
+                  src="/images/home/send.png"
+                  alt=""
+                  className="w-6 lg:w-12"
+                />
                 <span className="font-bold text-white">
                   support@nrghost.com
                 </span>
               </div>
 
               <div className="flex items-center gap-2">
-                <img src="/images/home/contact.png" alt="" />
+                <img
+                  src="/images/home/contact.png"
+                  alt=""
+                  className="w-6 lg:w-12"
+                />
                 <span className="font-bold text-white">+48 555 8753 005</span>
               </div>
             </div>
