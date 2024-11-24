@@ -7,15 +7,56 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "proxi";
+  src: url("/fonts/proximanova-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxi";
+  src: url("/fonts/proximanova-extrabold-webfont.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --primary-color: #ff6c3a;
+    --secondary-color: #232c3b;
+    --darkBlue-color: #232c3b;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "proxi"; */
+}
+/* custom container  */
+
+.container {
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.container-lg {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.container-xl {
+  width: 70% !important;
+  margin: 0 auto;
+}
+
+.container-2xl {
+  width: 60% !important;
+  margin: 0 auto;
+}
+
+.container-3xl {
+  width: 50% !important;
+  margin: 0 auto;
 }
