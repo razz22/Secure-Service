@@ -9,9 +9,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         "custom-image": "url('/images/home/hero4.jpg')",
+        "tv-mount-bg": "url('/images/services/tv-mounting-new.jpg')",
+        "home-appliances-bg": "url('/images/services/appliances-desktop.jpg')",
       },
+
       colors: {
-        "test-color": "#ff6c3a",
+        "primary-color": "#ff6c3a",
         "secondary-color": "#232c3b",
         "darkBlue-color": "#232c3b",
       },
@@ -36,10 +39,6 @@ module.exports = {
         "container-lg": "80%",
         "container-xl": "70%",
         "container-2xl": "60%",
-      },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
       },
     },
   },

@@ -96,7 +96,7 @@ const Footer = () => {
                   placeholder="Your Email..."
                   className="w-full h-[40px] rounded-md outline-none border-none px-3 text-sm pr-16"
                 />
-                <div className="w-[40px] h-[40px] bg-[#FF6C3A] flex justify-center items-center rounded-tr-md rounded-br-md absolute right-[0px] top-0 cursor-pointer">
+                <div className="w-[40px] h-[40px] bg-primary-color flex justify-center items-center rounded-tr-md rounded-br-md absolute right-[0px] top-0 cursor-pointer">
                   {" "}
                   <FaEnvelope className="text-white text-[18px]" />{" "}
                 </div>
@@ -107,19 +107,19 @@ const Footer = () => {
           {/* social icons  */}
           <div className="flex mt-4">
             <div className="flex-1 bg-[#3b5998] flex justify-center items-center py-5 cursor-pointer group overflow-hidden relative">
-              <div className="absolute inset-0 bg-[#FF6C3A] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
+              <div className="absolute inset-0 bg-primary-color translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
               <FaFacebookF className="text-[22px] text-white relative z-10" />
             </div>
             <div className="flex-1 bg-[#e02f2f] flex justify-center items-center py-5 cursor-pointer group overflow-hidden relative">
-              <div className="absolute inset-0 bg-[#FF6C3A] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
+              <div className="absolute inset-0 bg-primary-color translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
               <FaGooglePlusG className="text-[22px] text-white relative z-10" />
             </div>
             <div className="flex-1 bg-[#55acee] flex justify-center items-center py-5 cursor-pointer group overflow-hidden relative">
-              <div className="absolute inset-0 bg-[#FF6C3A] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
+              <div className="absolute inset-0 bg-primary-color translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
               <FaTwitter className="text-[22px] text-white relative z-10" />
             </div>
             <div className="flex-1 bg-[#007bb5] flex justify-center items-center py-5 cursor-pointer group overflow-hidden relative">
-              <div className="absolute inset-0 bg-[#FF6C3A] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
+              <div className="absolute inset-0 bg-primary-color translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></div>
               <FaLinkedinIn className="text-[22px] text-white relative z-10" />
             </div>
           </div>
