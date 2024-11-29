@@ -107,7 +107,7 @@ export default function Home() {
                 <span className="block">Your go-to expert for all your</span>
                 <span> home care needs</span>
               </h1>
-              <button className="border-none outline-none bg-[#ff6c3a] text-white px-5 py-2 rounded-md text-sm md:text-xl">
+              <button className="px-5 py-2 text-sm text-white border-none rounded-md outline-none bg-primary-color md:text-xl">
                 Book A Service
               </button>
             </div>
@@ -128,25 +128,25 @@ export default function Home() {
         <div className="mx-auto mt-8 max-w-container xl:max-w-container-xl 2xl:max-w-container-2xl">
           <div className="flex flex-col w-full gap-6 md:flex-row md:gap-2 md:justify-between">
             <div className="flex items-center gap-4 p-3 rounded-md shadow-md md:w-[250px]">
-              <IoHomeOutline className="text-[36px] md:text-[45px] text-[#ff6c3a]" />
+              <IoHomeOutline className="text-[36px] md:text-[45px] text-primary-color" />
               <span className="text-sm  text-[#7D91A5]">
                 Trusted by 2M+ <br /> Households
               </span>
             </div>
             <div className="flex items-center gap-4 p-3 rounded-md shadow-md md:w-[250px]">
-              <TbDeviceMobileStar className="text-[36px] md:text-[45px] text-[#ff6c3a]" />
+              <TbDeviceMobileStar className="text-[36px] md:text-[45px] text-primary-color" />
               <span className="text-sm  text-[#7D91A5]">
                 5 Star Technician <br /> Rating
               </span>
             </div>
             <div className="flex items-center gap-4 p-3 rounded-md shadow-md md:w-[250px]">
-              <IoRocketOutline className="text-[36px] md:text-[45px] text-[#ff6c3a]" />
+              <IoRocketOutline className="text-[36px] md:text-[45px] text-primary-color" />
               <span className="text-sm  text-[#7D91A5]">
                 Background <br /> Checked Technicians
               </span>
             </div>
             <div className="flex items-center gap-4 p-3 rounded-md shadow-md md:w-[250px]">
-              <MdHealthAndSafety className="text-[36px] md:text-[45px] text-[#ff6c3a]" />
+              <MdHealthAndSafety className="text-[36px] md:text-[45px] text-primary-color" />
               <span className="text-sm  text-[#7D91A5]">
                 90 Day Service <br /> Guaranteed
               </span>
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="relative py-12 mt-4 bg-gradient-to-r from-orange-200 via-orange-600 to-orange-900">
+        <section className="relative py-12 mt-4 bg-gradient-to-r ">
           {/* Image Over Content */}
           <div className="relative mx-auto mb-10 max-w-container xl:max-w-container-xl 2xl:max-w-container-2xl">
             <div className="relative">
@@ -174,7 +174,7 @@ export default function Home() {
                   comprehensive coverage for your home appliances and systems
                   and gives you 15% off all Puls home services year-round.
                 </p>
-                <button className="border-none outline-none bg-[#ff6c3a] text-white px-5 py-2 rounded-md text-sm md:text-xl">
+                <button className="px-5 py-2 text-sm text-white border-none rounded-md outline-none bg-primary-color md:text-xl">
                   Read More
                 </button>
               </div>
@@ -233,16 +233,16 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Search for services (e.g., Dishwasher repair)"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ff6c3a]"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-color"
               />
               <div className="flex flex-wrap gap-3">
-                <span className="px-4 py-2 text-sm  text-white bg-[#ff6c3a] rounded-full">
+                <span className="px-4 py-2 text-sm text-white rounded-full bg-primary-color">
                   Dishwasher repair
                 </span>
-                <span className="px-4 py-2 text-sm  text-white bg-[#ff6c3a] rounded-full">
+                <span className="px-4 py-2 text-sm text-white rounded-full bg-primary-color">
                   Dryer repair
                 </span>
-                <span className="px-4 py-2 text-sm  text-white bg-[#ff6c3a] rounded-full">
+                <span className="px-4 py-2 text-sm text-white rounded-full bg-primary-color">
                   Mount TV
                 </span>
               </div>
@@ -278,14 +278,14 @@ export default function Home() {
                           {_?.name}
                         </h4>
                         <div className="flex flex-wrap gap-2">
-                          <span className="px-3 py-1 text-xs font-medium text-white bg-[#ff6c3a] rounded-full">
+                          <span className="px-3 py-1 text-xs font-medium text-white rounded-full bg-primary-color">
                             Home Repair
                           </span>
-                          <span className="px-3 py-1 text-xs font-medium text-white bg-[#ff6c3a] rounded-full">
+                          <span className="px-3 py-1 text-xs font-medium text-white rounded-full bg-primary-color">
                             Trusted Pros
                           </span>
                         </div>
-                        <button className="border-none outline-none bg-white text-[#ff6c3a]  py-2 rounded-md text-sm flex items-center gap-2">
+                        <button className="flex items-center gap-2 py-2 text-sm bg-white border-none rounded-md outline-none text-primary-color">
                           <BsArrowReturnRight /> Book Now
                         </button>
                       </div>
@@ -369,7 +369,7 @@ export default function Home() {
 
             {/* Call to Action */}
             <div className="mt-12 text-center">
-              <button className="px-8 py-3 text-white bg-[#ff6c3a] text-lg font-semibold rounded-lg shadow-md hover:bg-[#e65d26] transition-colors">
+              <button className="px-8 py-3 text-white bg-primary-color text-lg font-semibold rounded-lg shadow-md hover:bg-[#e65d26] transition-colors">
                 Book a Service
               </button>
             </div>
@@ -401,7 +401,12 @@ export default function Home() {
             {/* Slider Section */}
             <Swiper
               spaceBetween={20}
-              slidesPerView={1}
+              slidesPerView={2}
+              breakpoints={{
+                520: { slidesPerView: 1 },
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
               loop={true}
               pagination={{ clickable: true }}
               className="pb-8"
@@ -425,9 +430,15 @@ export default function Home() {
                     "Very reliable service! The technician fixed my dryer efficiently, and I love the extended guarantee they provide.",
                   img: "/images/clients/customer2.png",
                 },
+                {
+                  name: "Michael Brown",
+                  feedback:
+                    "Very reliable service! The technician fixed my dryer efficiently, and I love the extended guarantee they provide.",
+                  img: "/images/clients/customer2.png",
+                },
               ].map((client, idx) => (
                 <SwiperSlide key={idx}>
-                  <div className="flex flex-col items-center p-6 space-y-4 shadow-lg bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 rounded-xl">
+                  <div className="flex flex-col items-center p-6 space-y-4 bg-[#414141] shadow-lg bg-gradient-to-r rounded-xl">
                     {/* Client Image */}
                     <div className="w-24 h-24 overflow-hidden border-4 border-white rounded-full">
                       <img
