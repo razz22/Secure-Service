@@ -66,7 +66,7 @@ const index = () => {
                   <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -82,7 +82,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -98,7 +98,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -114,7 +114,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -131,7 +131,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -178,7 +178,7 @@ const index = () => {
                   <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -195,7 +195,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -211,7 +211,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -227,7 +227,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -244,7 +244,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -292,7 +292,7 @@ const index = () => {
                   <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -308,7 +308,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -324,7 +324,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -340,7 +340,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -357,7 +357,7 @@ const index = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <svg
-                        className="flex-shrink-0 w-5 h-5 mt-1 text-blue-500"
+                        className="flex-shrink-0 w-5 h-5 mt-1 text-primary-color"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >

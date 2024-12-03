@@ -10,8 +10,12 @@ import { setToggleNav } from "@/features/redux/slices/themeSlice";
 import { FiList } from "react-icons/fi";
 import { GoChevronDown } from "react-icons/go";
 import { GoChevronUp } from "react-icons/go";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const SideNav = () => {
+  const router = useRouter();
+
   // declare dispatch
   const dispatch = useDispatch();
 
@@ -19,6 +23,11 @@ const SideNav = () => {
 
   const toggleDropdown = () => {
     setIsOpen((prev) => !prev);
+  };
+
+  const handleNavigation = (route) => {
+    router.push(`/${route}`); // Navigate to the "about" page
+    dispatch(setToggleNav(false));
   };
 
   return (
@@ -48,7 +57,10 @@ const SideNav = () => {
       {/* side menus  */}
 
       <div className="flex flex-col gap-2 py-4 mt-2 border-b">
-        <div className="flex items-center gap-2">
+        <div
+          onClick={() => handleNavigation("home")}
+          className="flex items-center gap-2"
+        >
           <IoHomeOutline className="text-black text-md" />
           <span className="text-black">Home</span>
         </div>
@@ -83,10 +95,16 @@ const SideNav = () => {
           }`}
         >
           <ul className="p-4 bg-gray-100 rounded-md shadow-md">
-            <li className="px-2 py-1 text-sm hover:bg-gray-200">
+            <li
+              onClick={() => handleNavigation("tv-mounting")}
+              className="px-2 py-1 text-sm hover:bg-gray-200"
+            >
               Tv Mounting{" "}
             </li>
-            <li className="px-2 py-1 text-sm hover:bg-gray-200">
+            <li
+              onClick={() => handleNavigation("home-appliance")}
+              className="px-2 py-1 text-sm hover:bg-gray-200"
+            >
               Home Appliances
             </li>
             <li className="px-2 py-1 text-sm hover:bg-gray-200">
