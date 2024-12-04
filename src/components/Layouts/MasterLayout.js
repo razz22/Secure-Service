@@ -32,7 +32,7 @@ const MasterLayout = ({ children }) => {
       <div
         className={`relative  w-full transition-all duration-200 bg-white ${
           toggleNav
-            ? "transform scale-[0.6] translate-x-[60%] translate-y-[-13%] rounded-xl overflow-hidden shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+            ? "transform scale-[0.6] h-[1200px] translate-x-[60%] translate-y-[-13%] rounded-xl overflow-hidden shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
             : ""
         }`}
       >
@@ -41,7 +41,7 @@ const MasterLayout = ({ children }) => {
         <div
           className={` ${
             toggleNav ? "block" : "hidden"
-          } fixed top-0 left-0 w-full h-full bg-transparent`}
+          } fixed top-0 left-0 w-full h-[1200px] bg-transparent z-[99999]`}
           onClick={() => dispatch(setToggleNav(false))}
         ></div>
 

@@ -10,7 +10,6 @@ const MobileNav = () => {
           <div className="p-2 bg-[#f5e1da] rounded-full">
             <MdHome className="text-2xl text-[#ff6c3a]" />
           </div>
-          <span className="mt-1 text-xs text-[#ff6c3a]">Home</span>
         </div>
         <div className="flex flex-col items-center">
           <MdSearch className="text-2xl text-gray-500" />

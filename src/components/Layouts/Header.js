@@ -82,7 +82,9 @@ const Header = () => {
           <div className="relative cursor-pointer">
             <Link href={"/pricing"}>Pricing</Link>
           </div>
-          <div className="relative cursor-pointer">Warranty</div>
+          <div className="relative cursor-pointer">
+            <Link href={"/warranty"}>Warranty</Link>
+          </div>
           <div className="relative cursor-pointer">Blog</div>
           <div className="relative cursor-pointer">Become a Tech</div>
           <div className="relative cursor-pointer">Property Management</div>
