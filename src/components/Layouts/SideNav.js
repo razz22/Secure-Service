@@ -33,7 +33,7 @@ const SideNav = () => {
   return (
     <>
       <div className="h-[50px] flex items-center justify-between">
-        <Image src="/images/logo.svg" alt="" width={100} height={80} />
+        <Image src="/images/logo.png" alt="" width={100} height={80} />
 
         <div>
           <RiFullscreenExitFill
