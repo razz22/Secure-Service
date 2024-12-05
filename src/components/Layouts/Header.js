@@ -56,7 +56,7 @@ const Header = () => {
       <div className="flex items-center justify-between h-full mx-auto max-w-container xl:max-w-container-xl 2xl:max-w-container-2xl">
         {/* logo */}
         <Link href={"/"}>
-          <Image src="/images/logo.svg" alt="Logo" width={120} height={80} />
+          <Image src="/images/logo.png" alt="Logo" width={120} height={80} />
         </Link>
         {/* menus */}
         <div className="items-center hidden h-full gap-4 md:flex">
