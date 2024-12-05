@@ -5,9 +5,32 @@ import "@/styles/globals.css";
 import AdminLayout from "@/components/Layouts/AdminLayout";
 import MasterLayout from "@/components/Layouts/MasterLayout";
 import store, { persistor } from "@/features/redux/store";
-
+import Head from "next/head";
+import { useEffect, useState } from "react";
+import Loading from "@/components/Layouts/Loading";
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const handleStart = () => setLoading(true);
+    const handleComplete = () => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    };
+
+    router.events.on("routeChangeStart", handleStart);
+    router.events.on("routeChangeComplete", handleComplete);
+    router.events.on("routeChangeError", handleComplete);
+
+    return () => {
+      router.events.off("routeChangeStart", handleStart);
+      router.events.off("routeChangeComplete", handleComplete);
+      router.events.off("routeChangeError", handleComplete);
+    };
+  }, [router]);
 
   // Define the layout logic
   const getLayout =
@@ -32,7 +55,15 @@ export default function App({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        {getLayout(<Component {...pageProps} />)}
+        <Head>
+          <link rel="icon" href="/images/favicon.png" />
+          <title>A4 Electronics</title>
+        </Head>
+        {getLayout(
+          <>
+            {loading && <Loading />} <Component {...pageProps} />
+          </>
+        )}
       </PersistGate>
     </Provider>
   );
